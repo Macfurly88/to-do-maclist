@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- íconos de bootatrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@400..700&family=Grey+Qo&family=Signika+Negative:wght@300..700&family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Lista de tareas</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="card">
+            <div class="encabezado">
+                <div id="fecha"></div>
+                <h1>Lista de Tareas</h1>
+                <h2>Hazlo paso a paso pero hazlo, el punto es no rendirse. :3</h2>
+            </div>
+            <div class="agregar">
+                <input type="text" id="input" placeholder="Escribe una tarea">
+                <i id="agregar-tarea" class="bi bi-plus-circle-fill"></i>
+            </div>
+            <div class="tareas">
+                <h2>Tareas pendientes</h2>
+                <ul id="lista">
+    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="main.js"></script>
+</body>
+</html>
+
